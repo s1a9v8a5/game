@@ -5,12 +5,12 @@ body{
 }
 .wrapper{
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
-  background: #B0C4DE;
+  background: #545f7d;
 }
 .board{
   display: flex;
@@ -27,14 +27,15 @@ body{
   align-items: center;
   width: 100px;
   height: 100px;
-  background: #4682B4;
+  background: #44425e;
   cursor: pointer;
   outline: none;
-  color:whitesmoke;
+  color:#c4c4c4;
   border:3px solid #BA55D3;
   font-weight: bold;
   font-size: 120px;
   text-transform: uppercase;
+
 }
 .popup{
   position: absolute;
@@ -71,7 +72,7 @@ body{
 .start__btn{
   width: 200px;
   height: 35px;
-  margin-bottom: 15px;
+  margin-top: 15px;
   cursor: pointer;
   outline: none;
   background: black;
@@ -79,9 +80,25 @@ body{
   color: white;
 }
 .game__info{
-  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 36px;
   color: white;
+}
+.counter{
+  display:flex;
+  right: 400px;
+  top: 175px;
+  position: absolute;
+  padding:20px;
+  flex-direction:column;
+  height:250px;
+  width:350px;
+  //border: 1px solid black;
+  color:white;
+  font-size:30px;
+  //padding:3px;
+  margin-left:5px;
+
 }
 
 
